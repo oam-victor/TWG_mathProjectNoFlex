@@ -1,0 +1,132 @@
+body{
+    width: 90vw;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+
+#title{
+    margin-left: 5%;
+    float: left;
+    height: 10vh;
+    width: 60%;
+}
+#search-tab{
+    margin-top: 1%;
+    padding-left: 2%;
+    float: right;
+    height: 10vh;
+    width: 30%;
+    background-color: rgb(168, 2, 168);
+    border: solid 1px black;
+}
+
+h2 a{
+    font-size: 50px;
+    color: purple 
+}
+
+form input{
+    height: 4vh;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#submit-button{
+    font-family: 'Courier New', Courier, monospace;
+    background: white;
+}
+
+#input-text{
+    background: white url(../images/pi.png) center right no-repeat;
+}
+
+.clear{
+    clear: both;
+}
+
+#menu{
+    margin-top: 30px;
+    height: 10vh;
+    background: linear-gradient(purple,rgb(211, 125, 211));
+}
+
+ul{
+    margin-left: 2%;
+    padding-top: 25px;
+    list-style: none;
+}
+
+#menu ul li{
+    float: left;
+    padding: 0px 40px;
+    border-right: 1px solid white;
+}
+
+#menu ul li:last-child{
+    border-right: none;
+}
+
+#menu ul li a{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+#menu ul li a:hover{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#introduction{
+    background: linear-gradient(rgb(211, 125, 211), white);
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px 5px 20px 20px;
+}
+
+#introduction p{
+    text-align: justify;
+    font-size: 25px;
+    padding: 5px 5px 20px 20px;
+}
+
+#introduction h3{
+    font-size: 40px;
+}
+
+.sidebar{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+
+.sidebar ul li a{
+    font-size: 30px;
+    font-style: none;
+    color: black;
+    transition: 0.3s;
+}
+
+.sidebar ul li a:hover{
+    font-size: 35px;
+    color: purple;
+}
+
+#leftbar{
+    padding-left: 5%;
+    float: left;
+}
+
+#rightbar{
+    width: 300px;
+    padding-right: 10%;
+    float: right;
+}
+
+#rightbar ul li{
+    margin-right: 70px;
+    padding-right: 15px;
+}
